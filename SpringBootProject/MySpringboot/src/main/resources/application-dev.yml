@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/blog?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  dubbo:
+    server: true
+    registry: zookeeper://localhost:2181
+    application:
+      id: dubbo-springboot
+      name: dubbo-springboot
+      logger: slf4j
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+logging:
+  level:
+    root: info
+    com.example.springboot: debug
+  file:
+    path: ./log
+    name: dev-blog.log

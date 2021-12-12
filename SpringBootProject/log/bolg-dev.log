@@ -1,0 +1,116 @@
+2021-09-23 15:51:30.030  INFO 2116 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Starting MySpringbootApplication using Java 1.8.0_271 on DESKTOP-8ALLA7A with PID 2116 (C:\Users\QQ145\.m2\SpringBootProject\MySpringboot\target\classes started by QQ145 in C:\Users\QQ145\.m2\SpringBootProject)
+2021-09-23 15:51:30.031 DEBUG 2116 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-23 15:51:30.031  INFO 2116 --- [restartedMain] c.e.springboot.MySpringbootApplication   : The following profiles are active: dev
+2021-09-23 15:51:30.329  WARN 2116 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.springboot]' package. Please check your configuration.
+2021-09-23 15:51:30.350  INFO 2116 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-23 15:51:30.357  INFO 2116 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2021-09-23 15:51:30.640  INFO 2116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-23 15:51:30.641  INFO 2116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-23 15:51:30.642  INFO 2116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-23 15:51:30.700  INFO 2116 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-23 15:51:30.700  INFO 2116 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 666 ms
+2021-09-23 15:51:30.823  INFO 2116 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-23 15:51:30.834  INFO 2116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-09-23 15:51:30.841  INFO 2116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-09-23 15:51:30.842  INFO 2116 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-23 15:51:30.865  INFO 2116 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-23 15:51:30.865  INFO 2116 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-23 15:51:30.969  WARN 2116 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-23 15:51:31.407  INFO 2116 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-09-23 15:51:31.770  INFO 2116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-23 15:51:31.789  INFO 2116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-23 15:51:31.796  INFO 2116 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Started MySpringbootApplication in 1.839 seconds (JVM running for 38.68)
+2021-09-23 15:51:31.800  INFO 2116 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-09-23 15:52:18.876  INFO 12400 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Starting MySpringbootApplication using Java 1.8.0_271 on DESKTOP-8ALLA7A with PID 12400 (C:\Users\QQ145\.m2\SpringBootProject\MySpringboot\target\classes started by QQ145 in C:\Users\QQ145\.m2\SpringBootProject)
+2021-09-23 15:52:18.879 DEBUG 12400 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-23 15:52:18.879  INFO 12400 --- [restartedMain] c.e.springboot.MySpringbootApplication   : The following profiles are active: dev
+2021-09-23 15:52:18.940  INFO 12400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-23 15:52:18.940  INFO 12400 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-23 15:52:19.654  WARN 12400 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.springboot]' package. Please check your configuration.
+2021-09-23 15:52:19.719  INFO 12400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-23 15:52:19.738  INFO 12400 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-09-23 15:52:20.742  INFO 12400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-23 15:52:20.755  INFO 12400 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-23 15:52:20.755  INFO 12400 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-23 15:52:20.892  INFO 12400 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-23 15:52:20.892  INFO 12400 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1951 ms
+2021-09-23 15:52:21.225  INFO 12400 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-23 15:52:21.287  INFO 12400 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-23 15:52:21.450  INFO 12400 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-23 15:52:21.570  INFO 12400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-23 15:52:21.702  INFO 12400 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-23 15:52:21.727  INFO 12400 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-23 15:52:22.021  INFO 12400 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-23 15:52:22.035  INFO 12400 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-23 15:52:22.159  WARN 12400 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-23 15:52:22.516  INFO 12400 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-09-23 15:52:23.236  INFO 12400 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-23 15:52:23.274  INFO 12400 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-23 15:52:23.285  INFO 12400 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Started MySpringbootApplication in 5.178 seconds (JVM running for 7.322)
+2021-09-23 15:52:29.315  INFO 12400 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-23 15:52:29.315  INFO 12400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-23 15:52:29.316  INFO 12400 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-09-23 15:52:29.432  INFO 12400 --- [http-nio-8080-exec-1] com.example.springboot.aspect.LogAspect  : Request : {url='/1222/zhangsan', ip='0:0:0:0:0:0:0:1', classMethod='com.example.springboot.web.IndexController.index', args=[1222, zhangsan]}
+2021-09-23 15:52:29.437  INFO 12400 --- [http-nio-8080-exec-1] com.example.springboot.aspect.LogAspect  : Result : {}index
+2021-09-23 15:56:01.896  INFO 10352 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Starting MySpringbootApplication using Java 1.8.0_271 on DESKTOP-8ALLA7A with PID 10352 (C:\Users\QQ145\.m2\SpringBootProject\MySpringboot\target\classes started by QQ145 in C:\Users\QQ145\.m2\SpringBootProject)
+2021-09-23 15:56:01.899 DEBUG 10352 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-23 15:56:01.900  INFO 10352 --- [restartedMain] c.e.springboot.MySpringbootApplication   : The following profiles are active: dev
+2021-09-23 15:56:01.959  INFO 10352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-23 15:56:01.959  INFO 10352 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-23 15:56:02.658  WARN 10352 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.springboot]' package. Please check your configuration.
+2021-09-23 15:56:02.718  INFO 10352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-23 15:56:02.736  INFO 10352 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2021-09-23 15:56:03.577  INFO 10352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-23 15:56:03.586  INFO 10352 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-23 15:56:03.587  INFO 10352 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-23 15:56:03.711  INFO 10352 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-23 15:56:03.712  INFO 10352 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1752 ms
+2021-09-23 15:56:04.016  INFO 10352 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-23 15:56:04.069  INFO 10352 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-23 15:56:04.203  INFO 10352 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-23 15:56:04.323  INFO 10352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-23 15:56:04.437  INFO 10352 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-23 15:56:04.460  INFO 10352 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-23 15:56:04.703  INFO 10352 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-23 15:56:04.716  INFO 10352 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-23 15:56:04.823  WARN 10352 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-23 15:56:05.209  INFO 10352 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-09-23 15:56:05.944  INFO 10352 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-23 15:56:05.986  INFO 10352 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-23 15:56:05.996  INFO 10352 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Started MySpringbootApplication in 4.777 seconds (JVM running for 7.012)
+2021-09-23 15:56:45.620  INFO 10352 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-23 15:56:45.620  INFO 10352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-23 15:56:45.621  INFO 10352 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-23 15:56:45.736  INFO 10352 --- [http-nio-8080-exec-1] com.example.springboot.aspect.LogAspect  : Request : {url='/1222/zhangsan', ip='0:0:0:0:0:0:0:1', classMethod='com.example.springboot.web.IndexController.index', args=[1222, zhangsan]}
+2021-09-23 15:56:45.743  INFO 10352 --- [http-nio-8080-exec-1] com.example.springboot.aspect.LogAspect  : Result : {}index
+2021-09-23 16:04:13.577  INFO 9248 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Starting MySpringbootApplication using Java 1.8.0_271 on DESKTOP-8ALLA7A with PID 9248 (C:\Users\QQ145\.m2\SpringBootProject\MySpringboot\target\classes started by QQ145 in C:\Users\QQ145\.m2\SpringBootProject)
+2021-09-23 16:04:13.587 DEBUG 9248 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Running with Spring Boot v2.5.4, Spring v5.3.9
+2021-09-23 16:04:13.587  INFO 9248 --- [restartedMain] c.e.springboot.MySpringbootApplication   : The following profiles are active: dev
+2021-09-23 16:04:13.644  INFO 9248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-09-23 16:04:13.645  INFO 9248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-09-23 16:04:14.362  WARN 9248 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.springboot]' package. Please check your configuration.
+2021-09-23 16:04:14.430  INFO 9248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-09-23 16:04:14.451  INFO 9248 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 JPA repository interfaces.
+2021-09-23 16:04:15.417  INFO 9248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-09-23 16:04:15.426  INFO 9248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-09-23 16:04:15.427  INFO 9248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-09-23 16:04:15.543  INFO 9248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-09-23 16:04:15.543  INFO 9248 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1897 ms
+2021-09-23 16:04:15.872  INFO 9248 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-09-23 16:04:15.926  INFO 9248 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-09-23 16:04:16.075  INFO 9248 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-09-23 16:04:16.201  INFO 9248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-09-23 16:04:16.321  INFO 9248 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-09-23 16:04:16.344  INFO 9248 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-09-23 16:04:16.626  INFO 9248 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-09-23 16:04:16.640  INFO 9248 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-09-23 16:04:16.768  WARN 9248 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-09-23 16:04:17.215  INFO 9248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2021-09-23 16:04:18.003  INFO 9248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-09-23 16:04:18.042  INFO 9248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-09-23 16:04:18.052  INFO 9248 --- [restartedMain] c.e.springboot.MySpringbootApplication   : Started MySpringbootApplication in 5.229 seconds (JVM running for 7.483)
+2021-09-23 16:04:27.241  INFO 9248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-23 16:04:27.242  INFO 9248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-23 16:04:27.243  INFO 9248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-09-23 16:04:27.364  INFO 9248 --- [http-nio-8080-exec-1] com.example.springboot.aspect.LogAspect  : Request : {url='/1222/zhangsan', ip='0:0:0:0:0:0:0:1', classMethod='com.example.springboot.web.IndexController.index', args=[1222, zhangsan]}
+2021-09-23 16:04:27.371  INFO 9248 --- [http-nio-8080-exec-1] com.example.springboot.aspect.LogAspect  : Result : {}index
